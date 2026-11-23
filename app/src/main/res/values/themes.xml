@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.Otacix" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/navy</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.Otacix.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/navy</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.Otacix</item>
+    </style>
+</resources>
